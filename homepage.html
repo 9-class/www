@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'/>
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>8 class website</title>
+    <style>
+      body {
+  background-image: url(https://cdn.pixabay.com/photo/2015/10/31/14/33/dark-1015825_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+  background-attachment: fixed;
+  font-size: 20px;
+  margin-bottom: 90px;
+}
+
+       .download {
+        color: #ffffff;
+        cursor: pointer;
+        width: 136px;
+        height: 34px;
+        border-radius: 10px;
+        transition: 0.4s;
+        border-style: hidden;
+        text-align: center;
+        background-color: #343434;
+        margin: 12px;
+      }
+    .download:hover {
+      background-color: gray;
+    }
+      
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+      #main {
+        transition: margin-left 0.5s;
+        padding: 16px;
+      }
+
+      @media screen and (max-height: 450px) {
+        .sidenav {
+          padding-top: 15px;
+        }
+        .sidenav a {
+          font-size: 18px;
+        }
+      }
+      .menuopener {
+        width: 35px;
+        height: 32px;
+        background-color: white;
+        border-radius: 4px;
+        transition: 0.4s;
+      }
+      .link {
+        color: blue;
+        transition: 0.3s;
+      }
+      .link:hover {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <p>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a class="active" href="homepage.html">Home</a>
+          <br>
+          <a href="subjects.html">Subject notes</a>
+          <br>
+          <a href="textbooks.html">Textbook</a>
+          <br>
+          <a href="studentslist.html">Student list</a>
+          <br>
+          <a href="contact_us.html">Contact Us </a>
+          <br>
+          <a href="about.html">About us</a>
+          <br>
+          <a href="https://lachat.clobas.com" target="_blank">
+            our school website
+          </a>
+        </div>
+        <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+          ><img class="menuopener" src="menu-outline.jpg"
+        /></span>
+        <h5 class="time" id="current-time"></h5>
+      </p>
+    </nav>
+    <marquee direction="right" scrollamount="10" id="user" ></marquee>
+  <marquee id="wish" scrollamount="10" direction="right"></marquee>
+    <h1 id="centre" class="body">Welcome to class VIII-C educational website.</h1>
+    <p id="centre" class="desc">
+      Click the hamburger menu in the top left corner to access notes, textbooks and more...
+    </p>
+  <p> If you want to use the windows software, download from the buttons below. If you are on macOS, please download from this link: <a class="link" href="https://drive.google.com/drive/folders/1xsFIjW7keqqXfcNhGFdbswP5T6KymDK0?usp=sharing" target="_blank"> google drive link</a>.  please go to <a class="link" href="https://github.com/class-8/8c/releases/tag/v1.1.0" target="_blank">tutorial(Must read!)</a> for instructions.</p>
+  <a href="https://github.com/class-8/8c-class/releases/download/v1.1.0/8-c-edu-win32-1.1.0.zip"><button id="centre" class="download">download 32-bit</button></a>
+  <br>
+  <a href="https://github.com/class-8/8c-class/releases/download/v1.1.0/8-c-edu-win64-1.1.0.zip"><button id="centre" class="download">download 64-bit</button></a>
+  
+  </body>
+  <script src="scripts.js"></script>
+</html>

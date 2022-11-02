@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+marquee {
+
+  color: white;
+
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-photo/many-books-black-background_1160-355.jpg?w=740&t=st=1664378019~exp=1664378619~hmac=ea62e4b197b35dadb7d94553cfd59a3b648ad61a8b4c5bc4569a49db7e93abde);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+  background-attachment: fixed;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  margin-bottom: 90px;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+h3 {
+  color: white;
+  text-align: center;
+}
+h4 {
+  color: white;
+  text-align: center;
+}
+h5 {
+  color: white;
+  text-align: center;
+}
+h6 {
+  color: white;
+  text-align: center;
+}
+p {
+  color: white;
+  text-align: center;
+}
+.navbaricons {
+  font-size: large;
+  border-style: hidden;
+  border-bottom: 2px solid red;
+  border-radius: 5px;
+  margin-left: 12px;
+  transition: 0.3s;
+}
+.navbaricon :hover {
+  font-size: x-large;
+  border-color: blue;
+  border-width: 3px;
+  color: blue;
+  cursor: pointer;
+}
+td,
+tr,
+table {
+  color: white;
+  border: 2px solid greenyellow;
+  width: 930px;
+  text-align: center;
+}
+.centre {
+  margin-left: 275px;
+}
+th {
+  color: blue;
+}
+.info {
+  color: orangered;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.menuopener {
+  width: 35px;
+  height: 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 6px;
+  margin-left: 9px;
+  background-color: white;
+}
+.menuopener:hover {
+  background-color: #818181;
+}
+.sidenav .active {
+  color: white;
+}
+.navbar {
+  height: 45px;
+  background-color: #0E00FF;
+  margin-bottom: 30px;
+  position: relative;
+  transition: 0.5s;
+  width: auto;
+}
+.navbar div a {
+  display: inline-block;
+  vertical-align: 50% 50%;
+}
+.navbar a {
+  text-decoration: none;
+  display: inline-block;
+}
+.navbaritem {
+  text-decoration: none;
+  text-align: left;
+  font-size: large;
+  margin-left: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: 0.6s;
+  color: gray;
+}
+.navbaritem:hover {
+  color: greenyellow;
+}
+.time {
+  display: inline-block;
+  color: #FFA500;
+  text-align: center;
+}
+.subn {
+  cursor: pointer;
+  width: 96px;
+  height: 28px;
+  border-radius: 50px;
+  border-style: hidden;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  border-radius: 9px;
+}
+.mybutton {
+  cursor: pointer;
+  width: 136px;
+  height: 34px;
+  border-radius: 10px;
+  transition: 0.3s;
+  border-style: hidden;
+  margin-bottom: 33px;
+  margin-top: 40px;
+  border: 2px solid red;
+}
+.mybutton:hover {
+  border: 2px solid blue;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 165px;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  border: 2px solid red;
+  margin-left: 247%;
+}
+.mybutton:hover span {
+  display: none;
+}
+
+.mybutton:hover:after {
+  border: 2px solid blue;
+  font-size: 18px;
+}
+.container {
+  position: relative;
+  width: 18%;
+}
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 31%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  position: absolute;
+  margin-left: 247%;
+}
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+.text {
+  background-color: #04aa6d;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.login {
+    width: 300px;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+}
+.login input[type=text] {
+    width: 200px;
+    height: 28px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid skyblue;
+    transition: 0.4s;
+    margin: 20px;
+}
+.login input[type=text]:hover {
+    background-color: aqua;
+    border: 2px solid black;
+}
+.login input[type=text]:focus {
+    background-color: skyblue;
+}
+.roll {
+    width: 90px;
+    margin: 20px;
+    height: 26px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid orange;
+    transition: 0.4s;
+    margin-right: 3px;
+} 
+.roll:hover {
+    border-color: blue;
+    background-color: skyblue;
+}
+.aclass {
+    height: 26px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid orange;
+    transition: 0.4s;
+}
+.aclass:hover {
+    border-color: blue;
+    background-color: skyblue;
+}
+.logincontainer{
+	position: relative;
+	margin-top: 100px;
+	width: 450px;
+	height: auto;
+	background: #dedede;
+	border-radius: 5px;
+}
+.label{
+	padding: 20px 130px;
+	font-size: 35px;
+	font-weight: bold;
+	color: #130f40;
+}
+.login_form{
+	padding: 20px 40px;
+}
+.login_form .font{
+	font-size: 18px;
+	color: #130f40;
+	margin: 5px 0;
+}
+.login_form input{
+	height: 40px;
+	width: 350px;
+	padding: 0 5px;
+	font-size: 18px;
+	outline: none;
+	border: 1px solid silver;
+}
+.login_form .font2{
+	margin-top: 30px;
+}
+.login_form button{
+	margin: 45px 0 30px 0;
+	height: 45px;
+	width: 365px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background: #1A237E;
+	border-radius: 3px;
+	border: 1px solid #3949AB;
+	transition: .5s;
+}
+.login_form button:hover{
+	background: #151c6a;
+}
+.login_form #email_error{
+	margin-top: 5px;
+	width: 345px;
+	font-size: 18px;
+	color: #C62828;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #EF9A9A;
+	display: none;
+}
+.welcome {
+  background-image: url(https://img.freepik.com/premium-vector/colorful-hand-drawn-welcome-landing-page_23-2148274061.jpg?w=2000);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.welcomemessage {
+  color: black;
+}

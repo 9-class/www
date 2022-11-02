@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'/>
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>students list</title>
+  </head>
+  <style>
+    .navbarhome {
+      font-size: large;
+      border-style: hidden;
+      border-bottom: 2px solid red;
+      border-radius: 5px;
+      margin-left: 1px;
+      transition: 0.3s;
+    }
+    .navbarhome :hover {
+      font-size: x-large;
+      border-color: blue;
+      border-width: 3px;
+      color: blue;
+      cursor: pointer;
+    }
+    .time {
+      margin-left: 77%;
+    }
+  </style>
+  <body>
+    <nav class="navbar">
+      <p>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="homepage.html">Home</a>
+          <br>
+          <a href="subjects.html">Subject notes</a>
+          <br>
+          <a href="textbooks.html">Textbook</a>
+          <br>
+          <a class="active" href="studentslist.html">Student list</a>
+          <br>
+          <a href="birthdaylist.html">birthday list</a>
+          <br>
+          <a href="contact_us.html">Contact Us </a>
+          <br>
+          <a href="about.html">About us</a>
+          <br>
+          <a href="https://lachat.clobas.com" target="_blank">
+            our school website
+          </a>
+        </div>
+        <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+          ><img class="menuopener" src="menu-outline.jpg"
+        /></span>
+        <a class="navbaritem" href="birthdaylist.html">birthday list</a>
+        <a href="homepage.html" class="navbaritem">Back</a>
+        <h5 class="time" id="current-time"></h5>
+      </p>
+    </nav>
+    <h1 id="centre">students list</h1>
+    <table class="centre">
+      <tr>
+        <th>name</th>
+        <th>roll no.</th>
+      </tr>
+      <tr>
+        <td>S.Adharsh</td>
+        <td>166218</td>
+      </tr>
+      <tr>
+        <td>D.Dhikshan</td>
+        <td>135571</td>
+      </tr>
+      <tr>
+        <td>K.Gokula Krishnan</td>
+        <td>135700</td>
+      </tr>
+      <tr>
+        <td>J.Harshavarman</td>
+        <td>186731</td>
+      </tr>
+      <tr>
+        <td>J.Joshuva</td>
+        <td>135523</td>
+      </tr>
+      <tr>
+        <td>S.A.Mitran</td>
+        <td>125104</td>
+      </tr>
+      <tr>
+        <td>P.K.Nitin Kamal</td>
+        <td>125185</td>
+      </tr>
+      <tr>
+        <td>M.A.Praveen</td>
+        <td>125292</td>
+      </tr>
+      <tr>
+        <td>H.S.Saichiranjeevi</td>
+        <td>176417</td>
+      </tr>
+      <tr>
+        <td>P.S.Sanjay</td>
+        <td>156106</td>
+      </tr>
+      <tr>
+        <td>S.Srivarshan</td>
+        <td>125206</td>
+      </tr>
+      <tr>
+        <td>G.Shaswad</td>
+        <td>146079</td>
+      </tr>
+      <tr>
+        <td>S.R.Seshavardhan</td>
+        <td>125169</td>
+      </tr>
+      <tr>
+        <td>G.Tinakaran</td>
+        <td>125025</td>
+      </tr>
+      <tr>
+        <td>Vishnu Vikram</td>
+        <td>156177</td>
+      </tr>
+    </table>
+    <h4>*Girls list not shown because they didn't want their name to be listed</h4>  
+  </body>
+  <script src="scripts.js"></script>
+</html>

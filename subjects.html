@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'/>
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>subjects</title>
+    <style>
+      .navbarhome {
+        font-size: large;
+        border-style: hidden;
+        border-bottom: 2px solid red;
+        border-radius: 5px;
+        margin-left: 1px;
+        transition: 0.3s;
+      }
+      .navbarhome :hover {
+        font-size: x-large;
+        border-color: blue;
+        border-width: 3px;
+        color: blue;
+        cursor: pointer;
+      }
+      .subject {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(43, 197, 217);
+        border-radius: 10px;
+        font-size: xx-large;
+        transition: 0.3s;
+        margin-top: 20px;
+      }
+      .subject :hover {
+        width: 215px;
+        height: 215px;
+        border: solid red;
+        cursor: pointer;
+      }
+      .subsci {
+        margin-top: 20px;
+        width: 200px;
+        height: 200px;
+        background-color: rgb(43, 197, 217);
+        border-radius: 10px;
+        font-size: xx-large;
+        margin-left: 50px;
+        transition: 0.3s;
+      }
+      .subscie :hover {
+        width: 215px;
+        height: 215px;
+        border: solid red;
+        cursor: pointer;
+      }
+       /* Style The Dropdown Button */
+      .dropbtn {
+        background-color: #ffaacc;
+        color: green;
+        padding: 16px;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 10px;
+        border: 2px solid red;
+        margin-left: 10px;
+        text-align: center;
+        transition: 0.4s;
+      }
+      .dropbtn:hover {
+        border: 2px solid blue;
+      }
+
+      /*  position the dropdown content */
+      .dropdown {
+        position: relative;
+		    display: inline-block;
+      }
+
+      /* Dropdown Content hidden by Default */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #0377fc;
+        width: 215px;
+        z-index: 1;
+        border-radius: 8px;
+        margin-left: 50px;
+      }
+
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {
+        background-color: #254973;
+      }
+
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .gn {
+        border-radius: 5px;
+        border: none;
+        width: 170px;
+        height: 24px;
+        border: 1px solid red;
+        transition: 0.4s;
+        cursor: pointer;
+      }
+      .gn:hover {
+        border: 3px solid orange;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <p>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="homepage.html">Home</a>
+          <br>
+          <a class="active" href="subjects.html">Subject notes</a>
+          <br>
+          <a href="textbooks.html">Textbook</a>
+          <br>
+          <a href="studentslist.html">Student list</a>
+          <br>
+          <a href="contact_us.html">Contact Us </a>
+          <br>
+          <a href="about.html">About us</a>
+          <br>
+          <a href="https://lachat.clobas.com" target="_blank">
+            our school website
+          </a>
+        </div>
+        <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+          ><img class="menuopener" src="menu-outline.jpg"
+        /></span>
+        <a href="homepage.html" class="navbaritem">Back</a>
+        <h5 class="time" id="current-time"></h5>
+      </p>
+    </nav>
+    <h1 id="centre">
+      Welcome to the subjects area! click on any subject to view notes for that
+      subject
+    </h1>
+    <p id="centre">
+      <p style="font-size: larger;">subjects</p>
+      <a class="subject" href="english_notes.html"
+        ><button class="subject" type="button">English</button></a
+      >
+      <a class="subscie" href="science_notes.html"
+        ><button class="subsci" type="button">Science</button></a
+      >
+      <a class="subscie" href="maths_notes.html"
+        ><button class="subsci" type="button">mathematics</button></a
+      >
+      <div id="centre" class="dropdown">
+      <a class="subscie" href="#"><button class="subsci" type="button">civics</button></a>
+      <div class="dropdown-content">
+   <a id="centre" href="c1.pdf" target="_blank"><button class="gn">chapter 1</button></a>
+   <a id="centre" href="c2.pdf" target="_blank"><button class="gn">chapter 2</button></a>
+   <a id="centre" href="c3.pdf" target="_blank"><button class="gn">chapter 3</button></a>
+   <a id="centre" href="c4.pdf" target="_blank"><button class="gn">chapter 4</button></a>
+   <a id="centre" href="c5.pdf" target="_blank"><button class="gn">chapter 5</button></a>
+   <a id="centre" href="c6.pdf" target="_blank"><button class="gn">chapter 6</button></a>
+   <a id="centre" href="c7.pdf" target="_blank"><button class="gn">chapter 7</button></a>
+   <a id="centre" href="c8.pdf" target="_blank"><button class="gn">chapter 8</button></a>
+   <a id="centre" href="c9.pdf" target="_blank"><button class="gn">chapter 9</button></a>
+   <a id="centre" href="c10.pdf" target="_blank"><button class="gn">chapter 10</button></a>
+      </div>
+    </div>
+      <div id="centre" class="dropdown">
+      <a class="subscie" href="#"><button class="subsci" type="button">history</button></a>
+      <div class="dropdown-content">
+       <a id="centre" href="h1.pdf" target="_blank" target="_blank"><button class="gn">chapter 1</button></a>
+       <a id="centre" href="h2.pdf" target="_blank"><button class="gn">chapter 2</button></a>
+       <a id="centre" href="h3.pdf" target="_blank"><button class="gn">chapter 3</button></a>
+       <a id="centre" href="h4.pdf" target="_blank"><button class="gn">chapter 4</button></a>
+       <a id="centre" href="h5.pdf" target="_blank"><button class="gn">chapter 5</button></a>
+       <a id="centre" href="h6.pdf" target="_blank"><button class="gn">chapter 6</button></a>
+       <a id="centre" href="h7.pdf" target="_blank"><button class="gn">chapter 7</button></a>
+       <a id="centre" href="h8.pdf" target="_blank"><button class="gn">chapter 8</button></a> 
+       <a id="centre" href="h9.pdf" target="_blank"><button class="gn">chapter 9</button></a>
+       <a id="centre" href="h10.pdf" target="_blank"><button class="gn">chapter 10</button></a>
+      </div>
+    </div>
+      <div id="centre" class="dropdown">
+      <a class="subscie" href="#"><button class="subsci" type="button">geography</button></a>
+      <div class="dropdown-content">
+        <a id="centre" href="g1.pdf" target="_blank"><button class="gn">chapter 1</button></a>
+        <a id="centre" href="g2.pdf" target="_blank"><button class="gn">chapter 2</button></a>
+        <a id="centre" href="g3.pdf" target="_blank"><button class="gn">chapter 3</button></a>
+        <a id="centre" href="g4.pdf" target="_blank"><button class="gn">chapter 4</button></a>
+        <a id="centre" href="g5.pdf" target="_blank"><button class="gn">chapter 5</button></a>
+        <a id="centre" href="g6.pdf" target="_blank"><button class="gn">chapter 6</button></a>
+      </div>
+    </div>
+    </p>
+  </body>
+  <script src="scripts.js"></script>
+</html>

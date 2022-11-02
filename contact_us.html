@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'/>
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <style>
+      body {
+
+        background-image: url(R.jpeg);
+
+        background-repeat: no-repeat;
+
+        background-size: cover;
+
+        background-position: inherit;
+
+        background-attachment: fixed;
+
+      }
+      .emailvishnu {
+        cursor: pointer;
+        width: 136px;
+        height: 34px;
+        border-radius: 10px;
+        transition: 0.3s;
+        border-style: hidden;
+        text-align: center;
+      }
+      .emailvishnu:hover {
+        border: 2px solid blue;
+        font-size: 18px;
+      }
+      .emailnitin {
+        cursor: pointer;
+        width: 136px;
+        height: 34px;
+        border-radius: 10px;
+        transition: 0.3s;
+        border-style: hidden;
+        margin-top: 10px;
+        text-align: center;
+      }
+      .emailnitin:hover {
+        font-size: 16px;
+        border: 2px solid blue;
+      }
+      .time {
+        margin-left: 85%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <p>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="homepage.html">Home</a>
+          <br>
+          <a href="subjects.html">Subject notes</a>
+          <br>
+          <a href="textbooks.html">Textbook</a>
+          <br>
+          <a href="studentslist.html">Student list</a>
+          <br>
+          <a class="active" href="contact_us.html">Contact Us </a>
+          <br>
+          <a href="about.html">About us</a>
+          <br>
+          <a href="https://lachat.clobas.com" target="_blank">
+            our school website
+          </a>
+        </div>
+        <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+          ><img class="menuopener" src="menu-outline.jpg"
+        /></span>
+        <a href="homepage.html" class="navbaritem">Back</a>
+        <h5 class="time" id="current-time"></h5>
+      </p>
+    </nav>
+    <a href="mailto:vishnuvikram828@gmail.com"
+      ><button class="emailvishnu" type="button">Vishnu Vikram</button></a
+    ><br />
+    <a href="mailto:nitinipun2110@gmail.com"
+      ><button class="emailnitin" type="button">Nitin Kamal.P.K</button></a
+    >
+  </body>
+  <script src="scripts.js"></script>
+</html>

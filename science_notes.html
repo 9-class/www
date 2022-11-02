@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'/>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>science notes</title>
+    <style>
+      .navbarhome {
+        font-size: large;
+        border-style: hidden;
+        border-bottom: 2px solid red;
+        border-radius: 5px;
+        margin-left: 1px;
+        transition: 0.3s;
+      }
+      .navbarhome :hover {
+        font-size: x-large;
+        border-color: blue;
+        border-width: 3px;
+        color: blue;
+        cursor: pointer;
+      }
+      body {
+        background-image: url(https://img.freepik.com/free-vector/colorful-science-education-background_23-2148490697.jpg?w=2000);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: inherit;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .navbaricons {
+        font-size: large;
+        border-style: hidden;
+        border-bottom: 2px solid red;
+        border-radius: 5px;
+        margin-left: 7px;
+        transition: 0.3s;
+      }
+      .navbaricon :hover {
+        font-size: x-large;
+        border-color: blue;
+        border-width: 3px;
+        color: blue;
+        cursor: pointer;
+      }
+      .navbaricons {
+        font-size: large;
+        border-style: hidden;
+        border-bottom: 2px solid red;
+        border-radius: 5px;
+        margin-left: 7px;
+      }
+      .navbaricon :hover {
+        font-size: x-large;
+        border-color: blue;
+        transition: 0.3s;
+        border-width: 3px;
+        color: blue;
+        cursor: pointer;
+      }
+      h1 {
+        color: white;
+      }
+      .info {
+        color: orangered;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <p>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="homepage.html">Home</a>
+          <br>
+          <a class="active" href="subjects.html">Subject notes</a>
+          <br>
+          <a href="textbooks.html">Textbook</a>
+          <br>
+          <a href="studentslist.html">Student list</a>
+          <br>
+          <a href="contact_us.html">Contact Us </a>
+          <br>
+          <a href="about.html">About us</a>
+          <br>
+          <a href="https://lachat.clobas.com" target="_blank">
+            our school website
+          </a>
+        </div>
+        <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+          ><img class="menuopener" src="menu-outline.jpg"
+        /></span>
+        <a href="subjects.html" class="navbaritem">Back</a>
+        <h5 class="time" id="current-time"></h5>
+      </p>
+    </nav>
+    <h1 id="centre">
+      Welcome to science notes area! Here, you can get all the answers for every
+      chapter of the allern active QR book. Just choose any chapter
+    </h1>
+  </body>
+  <script src="scripts.js"></script>
+</html>

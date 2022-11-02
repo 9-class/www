@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'/>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about us</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-image: url(about_banner2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: inherit;
+        background-attachment: fixed;
+      }
+      .contributors {
+        font-size: large;
+      }
+      .navbaricons {
+        font-size: large;
+        border-style: hidden;
+        border-bottom: 2px solid red;
+        border-radius: 5px;
+        margin-left: 12px;
+        transition: 0.3s;
+      }
+      .navbaricon :hover {
+        font-size: x-large;
+        border-color: blue;
+        border-width: 3px;
+        color: blue;
+        cursor: pointer;
+      }
+      .navbarhome {
+        font-size: large;
+        border-style: hidden;
+        border-bottom: 2px solid red;
+        border-radius: 5px;
+        margin-left: 1px;
+        transition: 0.3s;
+      }
+      .navbarhome :hover {
+        font-size: x-large;
+        border-color: blue;
+        border-width: 3px;
+        color: blue;
+        cursor: pointer;
+      }
+      .time {
+        margin-left: 85%;
+      }
+    </style>
+    <nav class="navbar">
+      <p>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="homepage.html">Home</a>
+          <br>
+          <a href="subjects.html">Subject notes</a>
+          <br>
+          <a href="textbooks.html">Textbook</a>
+          <br>
+          <a href="studentslist.html">Student list</a>
+          <br>
+          <a href="contact_us.html">Contact Us </a>
+          <br>
+          <a class="active" href="about.html">About us</a>
+          <br>
+          <a href="https://lachat.clobas.com" target="_blank">
+            our school website
+          </a>
+        </div>
+        <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+          ><img class="menuopener" src="menu-outline.jpg"
+        /></span>
+        <a href="homepage.html" class="navbaritem">Back</a>
+        <h5 class="time" id="current-time"></h5>
+      </p>
+    </nav>
+    <h1 id="centre" color=#000000>About us</h1>
+    <p id="centre" class="contributors">
+      co-founder and developer: Nitin Kamal.P.K
+      <br />
+      founder and developer: Vishnu Vikram
+      <br />
+    </p>
+  </body>
+  <script src="scripts.js"></script>
+</html>
