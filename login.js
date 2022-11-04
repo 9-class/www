@@ -1,4 +1,4 @@
-var attempt = 3; // Variable to count number of attempts.
+var attempt = 5; // Variable to count number of attempts.
 // Below function Executes on click of login button.
 function validate(){
 var username = document.getElementById("username").value;
