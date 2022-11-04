@@ -37,8 +37,8 @@ if ( username == "135523" ){
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
 }
-}
-else{
+
+else {
 attempt --;// Decrementing by one.
 alert("You have left "+attempt+" attempt;");
 // Disabling fields after 3 attempts.
