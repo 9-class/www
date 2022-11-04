@@ -37,6 +37,11 @@ if ( username == "135523" ){
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
 }
+if ( username == "125104" ){
+    alert ("Welcome Mitran   ");
+    window.location = "homepage.html"; // Redirecting to other page.
+    return false;
+    }
 
 else {
 attempt --;// Decrementing by one.
