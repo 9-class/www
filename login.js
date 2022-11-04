@@ -12,6 +12,32 @@ alert ("Welcome nitin");
 window.location = "homepage.html"; // Redirecting to other page.
 return false;
 }
+if ( username == "166218" ){
+    alert ("Welcome Adharsh ");
+    window.location = "homepage.html"; // Redirecting to other page.
+    return false;
+}
+if ( username == "135571" ){
+    alert ("Welcome Dhikshan ");
+    window.location = "homepage.html"; // Redirecting to other page.
+    return false;
+}
+if ( username == "135700" ){
+    alert ("Welcome Gokula Krishna");
+    window.location = "homepage.html"; // Redirecting to other page.
+    return false;
+}
+if ( username == "186731" ){
+    alert ("Welcome Harsha Varma");
+    window.location = "homepage.html"; // Redirecting to other page.
+    return false;
+}
+if ( username == "135523" ){
+    alert ("Welcome Joshua ");
+    window.location = "homepage.html"; // Redirecting to other page.
+    return false;
+}
+}
 else{
 attempt --;// Decrementing by one.
 alert("You have left "+attempt+" attempt;");
