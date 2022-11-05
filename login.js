@@ -40,4 +40,39 @@ if ( username == "125104" ){
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
     }
+if ( username == "125292" ){
+    alert ("Welcome Praveen  ");
+    window.location = "homepage.html"; // Redirecting to other page.
+    return false;
+    }
+if ( username == "176417" ){
+    alert ("Welcome Sai Chiranjeevi   ");
+    window.location = "homepage.html"; // Redirecting to other page.
+    return false;
+    }
+if ( username == "156106" ){
+    alert ("Welcome Sanjay ");
+    window.location = "homepage.html"; // Redirecting to other page.
+    return false;
+}
+if ( username == "125206" ){
+    alert ("Welcome Srivarshan ");
+    window.location = "homepage.html"; // Redirecting to other page.
+    return false;
+}
+if ( username == "146079" ){
+    alert ("Welcome Shaswad ");
+    window.location = "homepage.html"; // Redirecting to other page.
+    return false;
+}
+if ( username == "125169" ){
+    alert ("Welcome Seshavardhan ");
+    window.location = "homepage.html"; // Redirecting to other page.
+    return false;
+}
+if ( username == "125205" ){
+    alert ("Welcome Tinakaran ");
+    window.location = "homepage.html"; // Redirecting to other page.
+    return false;
+}
 }
