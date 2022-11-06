@@ -61,7 +61,7 @@ setInterval(() =>{
     marq.innerHTML = "Happy Christmas";
   } else if (gt == 30 && ot == 7) {
     marq.innerHTML = "Happy Friendship Day! Don't forgot to wish your friends!";
-  } else if (gt == 22 || 23 || 24 || 25 || 26 && ot == 10) {
+  } else if (gt == 10 || 11 || 12 || 13 || 14 && ot == 11) {
     marq.innerHTML = "Happy Diwali";
   }
 },50)
