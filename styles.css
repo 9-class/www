@@ -131,14 +131,14 @@ th {
 .menuopener {
   width: 35px;
   height: 32px;
-  border-radius: 4px;
-  transition: 0.5s;
+  border-radius: 6px;
+  transition: 0.6s;
   margin-top: 6px;
   margin-left: 9px;
   background-color: white;
 }
 .menuopener:hover {
-  background-color: #818181;
+  background-color: #818181e0;
 }
 .sidenav .active {
   color: white;
