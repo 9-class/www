@@ -16,64 +16,69 @@ if ( username == "ADHARSH" && password == "166218"){
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
 }
-if ( username == "135571" ){
+if ( username == "DHIKSHAN" && password == "135571"){
     alert ("Welcome Dhikshan ");
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
 }
-if ( username == "135700" ){
+if ( username == "GOKULA KRISHNAN" && password == "135700"){
     alert ("Welcome Gokula Krishna");
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
 }
-if ( username == "186731" ){
+if ( username == "HARSHAVARMAN" && password == "186731"){
     alert ("Welcome Harsha Varman");
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
 }
-if ( username == "135523" ){
+if ( username == "JOSHUVA" && password == "135523"){
     alert ("Welcome Joshua ");
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
 }
-if ( username == "125104" ){
+if ( username == "MITRAN" && password == "125104"){
     alert ("Welcome Mitran   ");
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
     }
-if ( username == "125292" ){
+if ( username == "PRAVEEN" && password == "125292"){
     alert ("Welcome Praveen  ");
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
     }
-if ( username == "176417" ){
+if ( username == "SAICHIRANJEEVI" && password == "176417"){
     alert ("Welcome Sai Chiranjeevi   ");
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
     }
-if ( username == "156106" ){
+if ( username == "SANJAY" && password == "156106"){
     alert ("Welcome Sanjay ");
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
 }
-if ( username == "125206" ){
+if ( username == "SRI VARSHAN" && password == "125206"){
     alert ("Welcome Srivarshan ");
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
 }
-if ( username == "146079" ){
+if ( username == "SHASWAD" && password == "146079"){
     alert ("Welcome Shaswad ");
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
 }
-if ( username == "125169" ){
+if ( username == "SESHAVARDHAN" && password == "125169"){
     alert ("Welcome Seshavardhan ");
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
 }
-if ( username == "125205" ){
+if ( username == "TINAKARAN" && password == "125025"){
     alert ("Welcome Tinakaran ");
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
 }
+if ( username == "KAMALA KANNAN"){
+    alert ("Welcome Kamala Kannan sir!");
+    window.location = "homepage.html"; // Redirecting to other page.
+    return false;
+    }
 }
