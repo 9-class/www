@@ -6,12 +6,12 @@ alert ("Welcome Vishnu");
 window.location = "homepage.html"; // Redirecting to other page.
 return false;
 }
-if ( username == "125185" ){
+if ( username == "NITIN KAMAL" && password == "125185" ){
 alert ("Welcome nitin");
 window.location = "homepage.html"; // Redirecting to other page.
 return false;
 }
-if ( username == "166218" ){
+if ( username == "ADHARSH" && password == "166218"){
     alert ("Welcome Adharsh ");
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
