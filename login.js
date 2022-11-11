@@ -81,4 +81,8 @@ if ( username == "KAMALA KANNAN"){
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
     }
+else{
+    alert ("wrong information ")
+}
+
 }
