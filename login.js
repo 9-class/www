@@ -26,7 +26,7 @@ if ( username == "GOKULA KRISHNAN" && password == "135700"){
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
 }
-if ( username == "HARSHAVARMAN" && password == "186731"){
+if ( username == "HARSHA VARMAN" && password == "186731"){
     alert ("Welcome Harsha Varman");
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
