@@ -366,3 +366,11 @@ th {
 .welcomemessage {
   color: black;
 }
+.login_form .usernamebox {
+  height: 40px;
+  width: 362px;
+  padding: 0 5px;
+  font-size: 18px;
+  border: 1px solid silver;
+  border-radius: 25px;
+}

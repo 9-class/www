@@ -10,17 +10,28 @@
 		<h1 class="label">User Login</h1>
 		<form class="login_form" method="post" name="login" onsubmit="return validate()">
 			<div class="font">Username:</div>
-			<select name="username" id="username">
+			<select class="usernamebox" name="username" id="username">
+				<option value="SELECT">SELECT</option>
 				<option value="VISHNU VIKRAM">VISHNU VIKRAM</option>
 				<option value="NITIN KAMAL">NITIN KAMAL</option>
 				<option value="ADHARSH">ADHARSH</option>
 				<option value="DHIKSHAN">DHIKSHAN</option>
 				<option value="GOKULA KRISHNAN">GOKULA KRISHNAN</option>
-				<option value="DHIKSHAN">HARSHA VARMAN</option>
+				<option value="HARSHA VARMAN">HARSHA VARMAN</option>
+				<option value="JOSHUVA">JOSHUVA</option>
+				<option value="MITRAN">MITRAN</option>
+				<option value="PRAVEEN">PRAVEEN</option>
+				<option value="SAICHIRANJEEVI">SAI CHIRANJEEVI</option>
+				<option value="SANJAY">SANJAY</option>
+				<option value="SRI VARSHAN">SRI VARSHAN</option>
+				<option value="SHASWAD">SHASWAD</option>
+				<option value="SESHAVARDHAN">SESHAVARDHAN</option>
+				<option value="TINAKARAN">TINAKARAN</option>
+				<option value="KAMALA KANNAN">KAMALA KANNAN</option>
 			  </select>
 			<div class="font">Roll no.:</div>
-			<input autocomplete="off" type="password" name="username" id="password" style="border-radius: 25px;">
-			<div id="roll_error" class="email_error">Please fill up your roll no.</div>
+			<input class="passwordinput" autocomplete="off" type="password" name="password" id="password" style="border-radius: 25px;">
+			<div id="roll_error" class="roll_error">Please fill up your roll no.</div>
 			<button type="submit" style="border-radius: 25px;">Submit</button>
 			<p> For girls and other students outside this school should visit <a href="https://class-8.github.io/8c/"> here </a>
 		</form>
