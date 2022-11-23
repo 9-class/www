@@ -374,3 +374,24 @@ th {
   border: 1px solid silver;
   border-radius: 25px;
 }
+.roll_error {
+  color: red;
+  display: none;
+}
+.showpass {
+  width: 32px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.showpass:hover {
+  width: 34px;
+}
+.hidepass {
+  width: 32px;
+  cursor: pointer;
+  transition: 0.2s;
+  display: none;
+}
+.hidepass:hover {
+  width: 34px;
+}

@@ -1,6 +1,6 @@
-function validate(){
-var username = document.getElementById("username").value;
-var password = document.getElementById("password").value;
+function validate() {
+var username = document.getElementById("username").value.trim();
+var password = document.getElementById("password").value.trim();
 if ( username == "VISHNU VIKRAM" && password == "portalaura"){
 alert ("Welcome Vishnu");
 window.location = "homepage.html"; // Redirecting to other page.
@@ -86,9 +86,23 @@ if (username == "SELECT") {
     window.location = "index.html";
     return false;
 }
-else{
-    alert ("wrong information ")
-    window.location = "index.html";
+else {
+    alert ("Username or password was wrong!")
     return false;
 }
 }
+
+const password1 = document.querySelector("#password");
+const toggleshow = document.querySelector("#showpass");
+const hideshow = document.querySelector("#hidepass");
+
+toggleshow.addEventListener("click", function () {
+    password1.setAttribute("type", Text);
+    document.getElementById("showpass").style.display = "none";
+    document.getElementById("hidepass").style.display = "initial";
+});
+hideshow.addEventListener("click", function () {
+    password1.setAttribute("type", 'password');
+    document.getElementById("hidepass").style.display = "none";
+    document.getElementById("showpass").style.display = "initial";
+});
