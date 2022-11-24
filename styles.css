@@ -382,16 +382,45 @@ th {
   width: 32px;
   cursor: pointer;
   transition: 0.2s;
+  border-radius: 11px;
+  margin-top: 8px;
 }
 .showpass:hover {
-  width: 34px;
+  transform: translateY(-3px);
+  background-color: greenyellow;
+  box-shadow: 4px 4px gray;
 }
 .hidepass {
   width: 32px;
   cursor: pointer;
   transition: 0.2s;
   display: none;
+  margin-top: 8px;
+  border-radius: 11px;
 }
 .hidepass:hover {
-  width: 34px;
+  transform: translateY(-3px);
+  background-color: orangered;
+  box-shadow: 4px 4px gray;
+}
+.usernamebox {
+  cursor: pointer;
+  transition: 0.4s;
+}
+.usernamebox:hover {
+  filter: brightness(85%);
+}
+.passwordinput {
+  transition: 0.4s;
+}
+.passwordinput:hover {
+  filter: brightness(85%);
+}
+.login_submit {
+  transition: 0.4s;
+}
+.login_submit:hover {
+  background-color: #151c6a;
+  box-shadow: 20px 20px gray;
+  transform: translateY(-4px);
 }

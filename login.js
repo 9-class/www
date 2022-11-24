@@ -81,6 +81,11 @@ if ( username == "KAMALA KANNAN"){
     window.location = "homepage.html"; // Redirecting to other page.
     return false;
 }
+if (username == "ARUNA") {
+    alert("Welcome Aruna mam!")
+    window.location = "homepage.html";
+    return false;
+}
 if (username == "SELECT") {
     alert ("Please choose an username.");
     window.location = "index.html";
