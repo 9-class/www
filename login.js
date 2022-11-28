@@ -1,7 +1,7 @@
 function validate() {
 var username = document.getElementById("username").value.trim();
 var password = document.getElementById("password").value.trim();
-if ( username == "VISHNU VIKRAM" && password == "portalaura"){
+if ( username == "VISHNU VIKRAM" && password == "20173portal"){
 alert ("Welcome Vishnu");
 window.location = "homepage.html"; // Redirecting to other page.
 return false;
